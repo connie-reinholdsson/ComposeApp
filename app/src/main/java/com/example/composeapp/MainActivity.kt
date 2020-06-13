@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
 
         setContent {
-            Greeting()
+            RecipeCard(defaultRecipes[0])
         }
 
     }
@@ -28,25 +28,25 @@ class MainActivity : AppCompatActivity() {
 @Composable
 @Preview
 fun Greeting() {
-    Column {
-        Row {
-            Text(text = "Hello world!", style = TextStyle(color = Color.Red))
-            Text(text = "Hello blaaaa!", style = TextStyle(color = Color.Red))
-            Text(text = "Hello blaaaa!", style = TextStyle(color = Color.Red))
-        }
-
-        Row {
-            Text(text = "Hello world!", style = TextStyle(color = Color.Red))
-            Text(text = "Hello blaaaa!", style = TextStyle(color = Color.Red))
-            Text(text = "Hello blaaaa!", style = TextStyle(color = Color.Red))
-        }
-
-        Row {
-            Text(text = "Hello world!", style = TextStyle(color = Color.Red))
-            Text(text = "Hello blaaaa!", style = TextStyle(color = Color.Red))
-            Text(text = "Hello blaaaa!", style = TextStyle(color = Color.Red))
-        }
-    }
+//    Column {
+//        Row {
+//            Text(text = "Hello world!", style = TextStyle(color = Color.Red))
+//            Text(text = "Hello blaaaa!", style = TextStyle(color = Color.Red))
+//            Text(text = "Hello blaaaa!", style = TextStyle(color = Color.Red))
+//        }
+//
+//        Row {
+//            Text(text = "Hello world!", style = TextStyle(color = Color.Red))
+//            Text(text = "Hello blaaaa!", style = TextStyle(color = Color.Red))
+//            Text(text = "Hello blaaaa!", style = TextStyle(color = Color.Red))
+//        }
+//
+//        Row {
+//            Text(text = "Hello world!", style = TextStyle(color = Color.Red))
+//            Text(text = "Hello blaaaa!", style = TextStyle(color = Color.Red))
+//            Text(text = "Hello blaaaa!", style = TextStyle(color = Color.Red))
+//        }
+//    }
 }
 
 
